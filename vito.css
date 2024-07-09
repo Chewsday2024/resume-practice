@@ -30,8 +30,16 @@ body {
 /*----- Some Buff -----*/
 
 
-.tae {
-  text-align: end;
+
+.name {
+  width: 370px;
+
+  margin: 0px 1238px 0px 312px;
+}
+
+.resume {
+  width: 622px;
+  margin: 0px 326px 0px 972px;
 }
 
 .age {
@@ -58,7 +66,7 @@ body {
 
 
 header {
-  padding: 160px 326px 0px 312px;
+  padding-top: 160px ;
 }
 
 h1 {
@@ -97,7 +105,7 @@ h2 {
   line-height: 60px;
   color: #AE0000;
 
-  max-width: 636px;
+  width: 636px;
 
   margin-bottom: 16px;
 
