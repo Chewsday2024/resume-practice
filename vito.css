@@ -11,6 +11,7 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 body {
@@ -23,6 +24,8 @@ body {
   'Segoe UI',         /*- windows -*/
   Arial,              /*- common -*/
   sans-serif;         /*- common -*/
+
+  line-height: 1.5;
 }
 
 
@@ -31,15 +34,10 @@ body {
 
 
 
-.name {
-  width: 370px;
+.container {
+  width: 1296px;
 
-  margin: 0px 1238px 0px 312px;
-}
-
-.resume {
-  width: 622px;
-  margin: 0px 326px 0px 972px;
+  margin: auto;
 }
 
 .age {
@@ -49,12 +47,33 @@ body {
   color: #949494;
 }
 
-.mrl {
-  margin: 0px 40px;
+.mr {
+  margin-right: 40px;
 }
 
 .mb {
   margin-bottom: 16px;
+}
+
+.bc {
+  background-color: #EFEFEF;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+
+.footer-mb {
+  margin-bottom: 160px;
 }
 
 
@@ -72,8 +91,7 @@ header {
 h1 {
   font-size: 128px;
   font-weight: 400;
-  line-height: 192px;
-  letter-spacing: 12%;
+  letter-spacing: 0.12em;
 }
 
 .picture {
@@ -81,31 +99,20 @@ h1 {
   display: block;
 }
 
-
-.container {
-  background-color: #EFEFEF;
-
-  padding: 48px 312px 48px 972px;
-}
-
-.container p {
+.aboutMe {
   font-size: 32px;
-  line-height: 48px;
 
-  max-width: 636px;
+  margin-left: auto;
+  padding: 48px 0px;
 }
 
-main {
-  padding: 80px 972px 160px 312px;
-}
+
 
 h2 {
   font-size: 40px;
   font-weight: 400;
-  line-height: 60px;
   color: #AE0000;
 
-  width: 636px;
 
   margin-bottom: 16px;
 
@@ -118,9 +125,6 @@ main ul {
 
 main li {
   font-size: 24px;
-  line-height: 36px;
-
-  width: 636px;
 }
 
 .vito li {
@@ -138,11 +142,10 @@ footer {
   background-color: #000000;
 }
 
-footer div {
-  width: 280px;
-  margin: auto;
+footer ul {
+  text-align: center;
 }
 
-footer img {
+footer li {
   display: inline-block;
 }
